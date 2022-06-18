@@ -19,7 +19,7 @@ body {
 .hex-colors h1 {
   font-size: 2rem;
   text-transform: uppercase;
-  animation: colorchange 5s infinite alternate;
+  animation: colorchange 15s infinite alternate;
 }
 
 .hex-colors h2 {
@@ -31,33 +31,18 @@ body {
   0% {
     color: indigo;
   }
-}
-
-@keyframes colorchange {
   20% {
     color: blue;
   }
-}
-
-@keyframes colorchange {
   40% {
     color: green;
   }
-}
-
-@keyframes colorchange {
   60% {
     color: yellow;
   }
-}
-
-@keyframes colorchange {
   80% {
     color: orange;
   }
-}
-
-@keyframes colorchange {
   100% {
     color: red;
   }
